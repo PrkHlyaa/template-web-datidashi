@@ -7,12 +7,12 @@
             </div>
             <ul class="nav-list">
                 <li class="nav-item"><a href="/" class="nav-link active">Home</a></li>
-                <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
-                <li class="nav-item"><a href="/dashboard" class="nav-link">Dashboard</a></li>
+                <li class="nav-item"><a href="/#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="/#pricing" class="nav-link">Pricing</a></li>
+                <li class="nav-item"><a href="/#contact" class="nav-link">Contact</a></li>
             </ul>
             <div class="theme-toggle">
-                <button id="theme-toggle" class="btn btn-secondary btn-sm">🌙 Tema Gelap</button>
+                <button id="theme-toggle" class="btn btn-secondary btn-sm" style="font-size: 0.8rem; padding: 0.25rem 0.5rem;">🌙 Tema Gelap</button>
             </div>
         </div>
     </nav>
@@ -23,8 +23,8 @@
             <h1>Selamat Datang di {{appName}}</h1>
             <p class="hero-description">{{description}}</p>
             <div class="hero-actions">
-                <a href="#tentang-kami" class="btn btn-primary btn-lg">Pelajari Lebih Lanjut</a>
-                <a href="/contact" class="btn btn-secondary btn-lg">Hubungi Kami</a>
+                <a href="#about" class="btn btn-primary btn-lg">Pelajari Lebih Lanjut</a>
+                <a href="/#contact" class="btn btn-secondary btn-lg">Hubungi Kami</a>
             </div>
         </div>
         <div class="hero-image">
@@ -35,8 +35,8 @@
         </div>
     </section>
 
-    <!-- Tentang Kami Section -->
-    <section id="tentang-kami" class="features">
+    <!-- About Section -->
+    <section id="about" class="features">
         <div class="container">
             <h2 class="section-title">Tentang Kami</h2>
             <div class="feature-grid">
@@ -179,8 +179,35 @@
         </div>
     </section>
 
-    <!-- Kontak Section -->
-    <section class="cta">
+    <!-- Pricing Section -->
+    <section id="pricing" class="features">
+        <div class="container">
+            <h2 class="section-title">Pricing</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">💼</div>
+                    <h3>Basic Plan</h3>
+                    <p>Perfect for small businesses starting their digital journey.</p>
+                    <div class="price">$99/month</div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3>Professional Plan</h3>
+                    <p>Ideal for growing companies needing advanced features.</p>
+                    <div class="price">$299/month</div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏢</div>
+                    <h3>Enterprise Plan</h3>
+                    <p>Comprehensive solution for large organizations.</p>
+                    <div class="price">Contact Us</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="cta">
         <div class="cta-content">
             <h2>Hubungi Kami</h2>
             <p>Siap untuk bekerja sama? Mari wujudkan visi Anda bersama kami</p>

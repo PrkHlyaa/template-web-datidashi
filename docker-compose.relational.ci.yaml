@@ -28,3 +28,4 @@ services:
       dockerfile: relational.e2e.Dockerfile
     env_file:
       - env-example-relational
+    container_name: ci-relational-api

@@ -20,7 +20,7 @@ jobs:
 
       - name: Copy prod.log from container to host
         if: ${{ failure() && steps.relational.conclusion == 'failure' }}
-        run: docker cp ci-relational-api-1:/usr/src/app/prod.log .
+        run: docker cp ci-relational-api:/usr/src/app/prod.log .
       # </database-relational-block>
 
       
